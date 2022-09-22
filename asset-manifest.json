@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c529f8b.css",
+    "main.js": "/static/js/main.7e699468.js",
+    "static/media/Landscape.webm": "/static/media/Landscape.df228a2b9877d6fc4924.webm",
+    "static/media/LandscapeR.webm": "/static/media/LandscapeR.0eb2f60f10b20e30bc4b.webm",
+    "static/media/Landscape.mp4": "/static/media/Landscape.53de432c21705239f144.mp4",
+    "static/media/LandscapeR.mp4": "/static/media/LandscapeR.e7eac13e3cbc2485c4a4.mp4",
+    "static/media/banner-bg.jpg": "/static/media/banner-bg.3e1cc043e4b50bbbf53a.jpg",
+    "static/media/animation.webp": "/static/media/animation.76a715c0d0ba3f045d5c.webp",
+    "static/media/header-img.svg": "/static/media/header-img.ef1204c856536af790e53cb5831019b2.svg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.4c529f8b.css.map": "/static/css/main.4c529f8b.css.map",
+    "main.7e699468.js.map": "/static/js/main.7e699468.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c529f8b.css",
+    "static/js/main.7e699468.js"
+  ]
+}
