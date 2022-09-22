@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+  overflow-x: hidden;
+}
+body {
+  background-color: #121212 !important;
+  color: #fff !important;
+  font-family: 'Sora', sans-serif !important;
+  position: relative;
+}
+
+img {
+  user-select: none;
+  pointer-events: none;
+}
+
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.App {
+  text-align: center;
+  background-color: #121212;
+}
+
+.project[data-colliding=true] {
+  animation: zoomInOutIn 1s;
+}
+
+.project[data-colliding=false] {
+  animation: zoomOutInOut 1s;
+}
+
+.project1[data-colliding=true] {
+  animation: zoomInOutIn 1.1s;
+}
+
+.project1[data-colliding=false] {
+  animation: zoomOutInOut 1.1s;
+}
+
+.project2[data-colliding=true] {
+  animation: zoomInOutIn 1.2s;
+}
+
+.project2[data-colliding=false] {
+  animation: zoomOutInOut 1.2s;
+}
+
+.project[data-transition=true] {
+  animation-name: goOutIn;
+  animation-duration: 1.5s;
+}
+
+.project1[data-transition=true] {
+  animation-name: goOutIn;
+  animation-duration: 1.55s;
+}
+
+.project2[data-transition=true] {
+  animation-name: goOutIn;
+  animation-duration: 1.6s;
+}
+
+@keyframes zoomInOutIn {
+  0% {
+    width: 0;
+    height: 0;
+    left: -50px;
+    opacity: 0;
+  }
+  75% {
+    left: 0;
+    width: 350px;
+    height: 350px;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+  }
+}
+
+@keyframes zoomOutInOut {
+  0% {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+  }
+  25% {
+    width: 350px;
+    height: 350px;
+    opacity: 1;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes goOutIn {
+  0% {
+    left: 0;
+    opacity: 1;
+  }
+  49% {
+    left: 1000px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    left: -1000px;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+    width: 0;
+    height: 0;
+  }
+}
